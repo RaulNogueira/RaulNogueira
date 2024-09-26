@@ -1,0 +1,68 @@
+LoginPage:
+   txtEmail: "//*[@id='email']"
+   txtPassword: "//*[@id='password']"
+   btnLogin: "//*[@id='login-submit']"
+   btnForgotPassword: "/html/body/div[1]/div/div/form/div[4]/a"
+   btnNewAccount: "/html/body/div[1]/div/div/form/div[5]/a"
+HomePage:
+   btnIdioma: "//span[.='United States']"
+   btnPTBR: "//i[@class='flagstrap-icon flagstrap-br']"
+   lblTable: "//div/div[2]/table/thead/tr/th[1][contains(., 'Título')]"
+   btnNovoProjeto: "//div/a[contains(., ' Create New Project')]"
+   btnOpen: "//div[2]/table/tbody/tr/td[3]/a[1]/span"
+   btnExport: "//div[2]/table/tbody[2]/tr/td[3]/a[4]"
+OpenDetailPage:
+   btnWorkBreakdownStructure: "/html/body/div[1]/div/section/div/div/div/div[2]/div/div[3]/div/div[3]/a[2]/div/div/i"
+   btnUpload: "//body/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]"
+   txtNameUpload: "//*[@id='img']/div[1]/div/div/input"
+   btnSaveUpload: "//*[@id='upload']/div[2]/div/div[3]/div/div/button[1]"
+   btnFileUpload: "//*[@id='img']/div[2]/div/div/input"
+   btnLessonLearned: "//div[2]/div/div[5]/a/div/div"
+OverleafExport:
+   selectIntegration: //*[@id="integration"]
+   selectScope: //*[@id="scope"]
+   selectSchedule: //*[@id="schedule"]
+   selectCost: //*[@id="cost"]
+   selectQuality: //*[@id="quality"]
+   selectResources: //*[@id="resources"]
+   selectCommunication: //*[@id="communications"]
+   selectRisk: //*[@id="risk"]
+   selectProcurement: //*[@id="procurement"]
+   selectStakeholder: //*[@id="stakeholder"]
+   textArea: //*[@id="latex"]
+   btnOpenOverleaf: //section/div/div/div/form/div[3]/button
+LessonLearnedRegisterPage:
+  btnNew: "//div/section/div/div/div/div[1]/div/button"
+  txtStakeHoldIdnt: "//*[@id='llr_txt_1']"
+  txtIdDate: "//*[@id='date']"
+  txtSituationDesc: "//*[@id='llr_txt_3']"
+  txtCategory: "//*[@id='llr_txt_4']"
+  txtInterested: "//*[@id='llr_txt_5']"
+  txtStatus: "//*[@id='llr_txt_6']"
+  txtImpact: "//*[@id='llr_txt_7']"
+  txtRecommendations: "//*[@id='llr_txt_8']"
+  txtLifeCycle: "//*[@id='llr_txt_9']"
+  selectKnowledgeArea: "/html/body/div[1]/div/section/div/div/div/form/div[10]/select"
+  btnSave: "//*[@id='lesson_learned_register-submit']"
+  btnExcluir: "//*[@id='table_integration']/tbody/tr/td[5]/div/div[2]/button"
+  btnEditar: "//*[@id='table_integration']/tbody/tr/td[5]/div/div[1]/form/button"
+QualityReportsPage:
+  btnQualityReports: "//div[2]/div/div[6]/div/div[3]/a/div/div"
+  btnNew: "/html/body/div[1]/div/section/div/div/div/div[1]/div/button"
+  txtResponsible: "//*[@id='responsible']"
+  txtDate: "//*[@id='date']"
+  txtIdentifier: "//div[3]/div/input"
+  txtTypeReport: "//div[4]/div/input"
+  txtDescription: "//div[5]/div/textarea"
+  txtImpactedAreas: "//div[6]/div/textarea"
+  txtDeliveries: "//div[7]/div/textarea"
+  txtRecommendations: "//div[8]/div/textarea"
+  txtCorrectiveActions: "//div[9]/div/textarea"
+  txtManagersOpinion: "//div[10]/div/textarea"
+  txtConclusions: "//div[11]/div/textarea"
+  btnSave: "//*[@id='quality_reports-submit']"
+  btnSaveEdit: "//*[@id='work_performance_report-submit']"
+  btnBack: "//div[12]/form/button"
+  btnEditFirstItem: "//td[5]/div/div[1]/form/button"
+  btnDelete: "//*[@id='tableNB']/tbody/tr[1]/td[5]/div/div[2]/button"
+  
